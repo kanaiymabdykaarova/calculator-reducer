@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import PhoneCard from './component/PhoneCard';
 import Modal from './component/UI/Modal';
 
+
+
+
 const AppContainer = styled.div`
   display: flex;
   justify-content: space-around;
@@ -14,6 +17,8 @@ const App = () => {
     { id: 1, model: 'IPHONE-x', price: 40000, color: 'pink', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ksN0z34Tvq1_n7EKPwqcqymK7rLEWdIgaA&s' },
     { id: 2, model: 'IPHONE-12', price: 60000, color: 'blue', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsfz6ZEuPkmRSz4nkF-LwYEbZHOH6fBP2l5Q&s' },
     { id: 3, model: 'IPHONE-14', price: 80000, color: 'red', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYlJ4vxIwlTj3NmcYl_abWdpgenJI6s3VAA&s' },
+
+    <h1>heloo</h1>
   ]);
 
   const [modalVisible, setModalVisible] = useState(false);
